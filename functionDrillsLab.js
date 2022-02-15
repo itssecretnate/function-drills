@@ -123,17 +123,20 @@ const exclaim = function(str) {
   Which syntax was used to create the function below?
   Uncomment the answer underneath.
 */
-
-const exclaimTwo = str => { return `${str.toUpperCase()}!!!`} 
+const exclaimTwo = str => {
+  return str.toUpperCase() + '!!!'
+}
 
 // arrow
 
 /*
-  Rewrite exclaimTwo to be a single line.
-  Call your new function exclaimThree
+Rewrite exclaimTwo to be a single line.
+Call your new function exclaimThree
 
-  Brownie points if you use a template string
+Brownie points if you use a template string
 */
+
+const exclaimThree = str => { return `${str.toUpperCase()}!!!`} 
 
 
 
